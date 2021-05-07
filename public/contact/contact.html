@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="/contact/contact.css">
+    <link rel="stylesheet" href="/home/home.css">
+     
+</head>
+<body>
+    
+    <nav>
+        <a href="/public/home/home.html"><img src="/images/logo_illu.png" alt=""></a>
+        <ul>
+         <li class="active">
+             <a href="/">home</a>
+         </li>
+         <li>
+             <a href="#">my project</a>
+         </li>
+         <li>
+             <a href="/resume">resume</a>
+         </li>
+         <li>
+             <a href="/skills">skills</a>
+         </li>
+         <li>
+             <a href="#">about</a>
+         </li>
+         <li>
+             <a href="/contact">contact</a>
+         </li>
+     </ul>
+    </nav>
+
+
+ <section>
+    <form class="contact-form" method="POST" action="send" enctype="multipart/form-data">
+        <div class="container">
+            <div class="contactinfo">
+                <div class="contactText">
+                    <h2>Conatact</h2>
+                    
+                    <!-- <ul class="info">
+                        <li>
+                            <span><img src="images/linkedin_1.png" alt=""></span>
+                            <span>elisha_ngoma@yahoo.fr</span>
+                        </li>
+                        <li>
+                            <span><img src="images/linkedin_1.png" alt=""></span>
+                            <span>+4593919271</span>
+                        </li>
+                    </ul> -->
+                </div>
+                <ul class="sci">
+                    <li><a href="#"><img src="/images/linkedin_1.png" alt="" style="width: 50px;"></a></li>
+                    <li><a href="#"><img src="/images/instagram.png" alt="" style="width: 50px;"></a></li>
+                    <li><a href="#"><img src="/images/facebook_1.png" alt="" style="width: 50px;"></a></li>
+                </ul>     
+            </div>
+            <div class="contactForm">
+                <h2>Send a Message</h2>
+                <div class="formBox">
+
+                    <!-- <div class="inputBox w50">
+                        <input type="text" id="fullName" name="" required>
+                        <span>Full Name</span>
+                    </div> -->
+
+                    <!-- <div class="inputBox w50">
+                        <input type="tel" id="phone" name="" required>
+                        <span>Phone</span>
+                    </div> -->
+
+                    <div class="inputBox w50">
+                        <input type="email" id="email" name="email" required>
+                        <span>Email</span>
+                    </div>
+
+                    <div class="inputBox w50">
+                        <input type="text" id="subject" name="subject" required>
+                        <span>Subject</span>
+                    </div>
+
+                    <div class="inputBox w100">
+                        <textarea name="message" id="message" required></textarea>
+                        <span>Write your message here...</span>
+                    </div>
+
+                    <div class="inputBox w100">
+                        <input type="submit" value="Send">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </form>
+    </section> 
+
+    <section>
+        <div class="footer_wrapper">
+            <div class="logo_footer">
+                <img src="/images/logo_footer.png" alt="">
+            </div>
+            <div class="icones">
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/elisha-ngoma-44436599/"><img src="/images/linkedin_1@2x.png" alt=""></a>
+                    </li>
+                    <li>
+                       <a href="https://github.com/Elisha2605"><img src="/images/github_2@2x.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/Alvinngom"><img src="/images/facebook_1@2x.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/alvin.j/"><img src="/images/instagram@2x.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_nav">
+                <ul>
+                    <li>
+                        <a href="/home">home</a>
+                    </li>
+                    <li>
+                        <a href="#">my project</a>
+                    </li>
+                    <li>
+                        <a href="/resume">resume</a>
+                    </li>
+                    <li>
+                        <a href="/skills">skills</a>
+                    </li>
+                    <li>
+                        <a href="#">about</a>
+                    </li>
+                    <li>
+                        <a href="/contact">contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copywrite">
+                <p>© 2021 Elisha Ngoma</p>
+            </div>
+        </div>
+    </section>
+
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+
+    <script>
+        $("form").on("submit", (e) => {
+            e.preventDefault();
+
+            // const fullName = $("#fullName").val().trim();
+            // const phone = $("#phone").val().trim();
+            const email = $("#email").val().trim();
+            const subject = $("#subject").val().trim();
+            const message = $("#message").val().trim();
+
+            const data = {
+                // fullName,
+                // phone,
+                email,
+                subject,
+                message
+            };
+
+            $.post("/email", data, function() {
+                console.log("Server received our data");
+            });
+        });
+    </script>
+
+</body>
+</html>

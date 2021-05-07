@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box; 
+}
+
+body {
+   background-color: gray;
+   margin: 0;
+   padding: 0;
+}
+
+/* navigation */
+nav {
+   background: rgb(41, 41, 41);
+   height: 100px;
+   width: 100%;
+   /* opacity: 0.7; */
+}
+nav img {
+   width: 93px;
+   margin-top: 30px;
+   margin-left: 60px;
+   filter: invert(1);
+}
+nav ul {
+   float: right;
+   margin-right: 25px;   
+}
+
+nav ul li {
+   display: inline-block;
+   line-height: 60px;
+   margin: 20px;
+}
+
+nav ul li a {
+   color: #e7e7e7;
+   font-size: 15px;
+   text-transform: uppercase;
+   font-family: "Poppin", sans-serif;
+   font-weight: 300;
+   text-decoration: none !important;
+   
+}
+nav ul li a:hover {
+   color: #0bceaf 
+}
+.active a {
+    font-weight: 600;
+}
+
+.mh-skills .mh-professional-skill {
+    padding-right: 60px;
+    color: white;
+}
+
+.mh-skills .mh-professional-skill h3 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mh-professional-skills {
+    padding-left: 20%;
+    color: white;
+}
+
+.mh-professional-skills h3 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.mh-professional-progress li{
+    display: inline-block;
+    margin: 0 auto;
+    float: none;
+    width: 48%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.mh-progress {
+    margin-bottom: 10px;
+    font: 900 1.14285/1 Cinzerl, cursive;
+    color: white;
+}
+
+.mh-progress .progressbar-text {
+    color: inherit !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.progress.progress-line {
+   height: 10px;
+   margin-right: 60px;
+}
+
+.progress.progress-line .progress-text{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 60%;
+    transform: translateY(-35%);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mh-progress.mh-progress-circle {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.mh-progress path:nth-child(1) {
+    stroke: rgba(0, 0, 0, 0.7);
+}
+
+.mh-progress path:nth-child(2) {
+    stroke: #0bceaf !important;
+    background: #0bceaf;
+}
+
+.candidatos {
+    position: relative;
+    margin-bottom: 15px;
+    font-family:'Poppins', sans-serif;
+}
+
+.candidatos .parcial {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.candidatos .parcial .info {
+    position: relative;
+    font-family:'Poppins', sans-serif;
+}
+
+.candidatos .parcial .info .nome {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.9;
+    font-family:'Poppins', sans-serif;
+}
+
+.candidatos .parcial .info .percentage-num {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.candidatos .parcial .progressBar {
+    position: relative;
+    width: 100%;
+    height: 7px;
+    margin: 30px 0 2px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.candidatos .parcial .percentagem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #0bceaf;
+    -webkit-transition: 2s all;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-name: animationProgress;
+    font-family:'Poppins', sans-serif;
+}
+
+.precentual {
+    animation-name: animationProgress;
+}
+
+/* footer */
+
+.footer_wrapper {
+    width: 100%;
+    height: calc(100vh - 200px);
+    margin-top: 150px;
+    background: rgb(41, 41, 41);
+}
+.footer_wrapper .logo_footer img {
+    width: 100px;
+    float: right;
+    margin: 40px;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.icones img {
+    filter: invert(1);
+    width: 80px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 60px;
+}
+.icones li img:hover {
+    opacity: 0.5;
+}
+.icones li {
+    list-style: none;
+    display: inline;
+    margin: 15px;
+}
+
+.footer_nav {
+    display: flex;
+    justify-content: center;
+}
+.footer_nav li {
+    position: relative;
+    list-style: none;
+    display: inline;
+    margin: 20px;
+    font-size: 20px;
+    right: 30px;
+}
+.footer_nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+}
+.footer_nav ul li a:hover {
+    opacity: 0.5;
+}
+
+.copywrite {
+    display: flex;
+    justify-content: center; 
+}
+.copywrite p {
+    position: relative;
+    margin-top: 300px;
+    color: white;
+    font-weight: 100;
+    left: -30px;
+}
+
+
+@keyframes animationProgress {
+    from{
+        width: 0;
+    }
+}

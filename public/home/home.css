@@ -1,0 +1,1070 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+	.mediaViewInfo {
+		--web-view-name: home;
+		--web-view-id: home;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-vertically: true;
+		--web-refresh-for-changes: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: home;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+		font-family: 'Poppins', sans-serif;
+        
+	}
+
+    html, body {
+        padding: 0;
+        margin: 0;
+		overflow-x: hidden;
+		scroll-behavior: smooth;
+    }
+	#home {
+		position: absolute;
+		width: 1366px;
+		height: 4609px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: home;
+		--web-view-id: home;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-vertically: true;
+		--web-refresh-for-changes: true;
+		--web-enable-deep-linking: true;
+		font-weight: bold;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#home-background {
+		fill: rgba(112,112,112,1);
+	}
+	.home-background {
+		position: absolute;
+		overflow: visible;
+		width: 1366px;
+		height: 768px;
+		left: 0px;
+		top: 0px;
+	}
+	#home-deco_R {
+		position: absolute;
+		width: 438px;
+		height: 755px;
+		left: 1200px;
+		top: -214px;
+		overflow: visible;
+	}
+	.titles span{
+		width: 100%;
+		text-transform: uppercase;
+	}
+	#circle_right {
+		fill: rgba(145,145,145,1);
+	}
+	.circle_right {
+		position: absolute;
+		overflow: visible;
+		width: 438px;
+		height: 435px;
+		left: 0px;
+		top: 0px;
+	}
+	#triangle_right {
+		fill: rgba(57,57,57,1);
+	}
+	.triangle_right {
+		overflow: visible;
+		position: absolute;
+		width: 408px;
+		height: 166px;
+		transform: translate(-1227.383px, 259px) matrix(1,0,0,1,1106.3828,209) rotate(-90deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#nav-bar {
+		position: absolute;
+		width: 1248.729px;
+		height: 52.807px;
+		left: 65.636px;
+		top: 39.193px;
+		overflow: visible;
+	}
+	#logo {
+		position: absolute;
+		width: 93.46px;
+		height: 52.807px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Logo_r {
+		position: absolute;
+		width: 93.46px;
+		height: 52.807px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_6 {
+		fill: rgba(20,20,20,1);
+	}
+	.Path_6 {
+		overflow: visible;
+		position: absolute;
+		width: 39.598px;
+		height: 0.03px;
+		left: 4.931px;
+		top: 52.722px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_7 {
+		fill: rgba(20,20,20,1);
+	}
+	.Path_7 {
+		overflow: visible;
+		position: absolute;
+		width: 26.974px;
+		height: 30.855px;
+		left: 0px;
+		top: 0.007px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_8 {
+		fill: rgba(20,20,20,1);
+	}
+	.Path_8 {
+		overflow: visible;
+		position: absolute;
+		width: 4.052px;
+		height: 8.855px;
+		left: 18.088px;
+		top: 32.54px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_9 {
+		fill: rgba(20,20,20,1);
+	}
+	.Path_9 {
+		overflow: visible;
+		position: absolute;
+		width: 18.716px;
+		height: 0.011px;
+		left: 36.192px;
+		top: 8.872px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_10 {
+		fill: rgba(20,20,20,1);
+	}
+	.Path_10 {
+		overflow: visible;
+		position: absolute;
+		width: 30.649px;
+		height: 0.03px;
+		left: 28.603px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_11 {
+		fill: rgba(20,20,20,1);
+	}
+	.Path_11 {
+		overflow: visible;
+		position: absolute;
+		width: 7.025px;
+		height: 0.041px;
+		left: 11.221px;
+		top: 52.742px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_12 {
+		fill: rgba(20,20,20,1);
+	}
+	.Path_12 {
+		overflow: visible;
+		position: absolute;
+		width: 57.098px;
+		height: 52.655px;
+		left: 36.362px;
+		top: 0.152px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_13 {
+		fill: rgba(20,20,20,1);
+	}
+	.Path_13 {
+		overflow: visible;
+		position: absolute;
+		width: 4.043px;
+		height: 8.865px;
+		left: 23.854px;
+		top: 0.007px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_14 {
+		fill: rgba(20,20,20,1);
+	}
+	.Path_14 {
+		overflow: visible;
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		left: 21.083px;
+		top: 35.029px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_15 {
+		fill: rgba(20,20,20,1);
+	}
+	.Path_15 {
+		overflow: visible;
+		position: absolute;
+		width: 9.256px;
+		height: 0.015px;
+		left: 28.186px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_16 {
+		fill: rgba(20,20,20,1);
+	}
+	.Path_16 {
+		overflow: visible;
+		position: absolute;
+		width: 57.677px;
+		height: 52.734px;
+		left: 0px;
+		top: 0.007px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_17 {
+		fill: rgba(20,20,20,1);
+	}
+	.Path_17 {
+		overflow: visible;
+		position: absolute;
+		width: 4.043px;
+		height: 8.865px;
+		left: 23.854px;
+		top: 0.007px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.navigation a {
+		text-decoration: none;
+		color: #141414;
+		text-transform: uppercase;
+		font-size: 16px;
+		margin: 0px;
+		font-weight: 400;
+		position: relative;
+		top: -5px;
+	}
+	#navigation {
+		position: absolute;
+		width: 655.364px;
+		height: 34px;
+		left: 593.364px;
+		top: -4.193px;
+		overflow: visible;
+	}
+	#about {
+		left: 494px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 64px;
+		white-space: nowrap;
+		text-align: left;
+		font-size: 25px;
+		color: rgba(20,20,20,1);
+	}
+	#resume {
+		left: 317px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 84px;
+		white-space: nowrap;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: test2.html;
+		cursor: pointer;
+		text-align: left;
+		font-size: 25px;
+		color: rgba(20,20,20,1);
+	}
+	#my_projects {
+		left: 175px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 132px;
+		white-space: nowrap;
+		text-align: left;
+		font-size: 25px;
+		color: rgba(20,20,20,1);
+	}
+	#home_ {
+		left: 89px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		white-space: nowrap;
+		text-align: left;
+		font-size: 26px;
+		color: rgba(20,20,20,1);
+		
+	}
+	.active a {
+		font-weight: 600;
+	}
+	#contact {
+		left: 575.364px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: test4.html;
+		cursor: pointer;
+		text-align: left;
+		font-size: 25px;
+		color: rgba(20,20,20,1);
+	}
+	#skills {
+		left: 413px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 54px;
+		white-space: nowrap;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: test3.html;
+		cursor: pointer;
+		text-align: left;
+		font-size: 25px;
+		color: rgba(20,20,20,1);
+	}
+	#hom-img-wrapper {
+		position: absolute;
+		width: 703px;
+		height: 902px;
+		left: 563px;
+		top: 121px;
+		overflow: visible;
+	}
+	#hom_img_circle {
+		fill: rgba(100,100,100,1);
+	}
+	.hom_img_circle {
+		position: absolute;
+		overflow: visible;
+		width: 703px;
+		height: 868px;
+		left: 0px;
+		top: 34px;
+	}
+	#home_img {
+		position: absolute;
+		width: 467px;
+		height: 647px;
+		left: 120px;
+		top: 0px;
+		overflow: visible;
+	}
+	#home-deco-L {
+		position: absolute;
+		width: 763px;
+		height: 480px;
+		left: -167px;
+		top: 543px;
+		overflow: visible;
+	}
+	#circle_left {
+		fill: rgba(57,57,57,1);
+	}
+	.circle_left {
+		overflow: visible;
+		position: absolute;
+		width: 466px;
+		height: 480px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#triangle_left {
+		fill: rgba(145,145,145,1);
+	}
+	.triangle_left {
+		overflow: visible;
+		position: absolute;
+		width: 596px;
+		height: 225px;
+		left: 167px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#page-2-background {
+		fill: rgba(226,226,226,1);
+	}
+	.page-2-background {
+		position: absolute;
+		overflow: visible;
+		width: 1366px;
+		height: 768px;
+		left: 0px;
+		top: 768px;
+	}
+	#home_text {
+		position: absolute;
+		width: 433px;
+		height: 189px;
+		left: 133px;
+		top: 277px;
+		overflow: visible;
+	}
+	#Hi {
+		left: 374px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 52px;
+		color: rgba(20,20,20,1);
+	}
+	#Im_Elisha {
+		left: 0px;
+		top: 57px;
+		position: absolute;
+		overflow: visible;
+		width: 434px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 94px;
+		color: rgba(20,20,20,1);
+	}
+	#page_2_title {
+		left: 576.5px;
+		top: 817px;
+		position: absolute;
+		overflow: visible;
+		width: 215px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(23,39,46,1);
+	}
+	#page_2_img {
+		position: absolute;
+		width: 231px;
+		height: 230px;
+		left: 568px;
+		top: 908px;
+		overflow: visible;
+	}
+	#page_2_subtitle {
+		position: absolute;
+		width: 268px;
+		height: 100px;
+		left: 549px;
+		top: 1152px;
+		overflow: visible;
+	}
+	#Hi_bo {
+		left: 115px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 40px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(23,39,46,1);
+	}
+	#Im_Elisha_Ngoma {
+		left: 0px;
+		top: 57px;
+		position: absolute;
+		overflow: visible;
+		width: 269px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(23,39,46,1);
+	}
+	#page_2_content {
+		left: 289.5px;
+		top: 1287px;
+		position: absolute;
+		overflow: visible;
+		width: 788px;
+		height: 211px;
+		text-align: center;
+		font-family: Telugu Sangam MN;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(20,20,20,1);
+	}
+	#page-3-background {
+		fill: rgba(203,203,203,1);
+	}
+	.page-3-background {
+		position: absolute;
+		overflow: visible;
+		width: 1366px;
+		height: 768px;
+		left: 0px;
+		top: 1536px;
+	}
+	#my-project-img-node {
+		filter: drop-shadow(0px 0px 24px rgba(0, 0, 0, 0.671));
+		position: absolute;
+		width: 476px;
+		height: 270px;
+		left: 215px;
+		top: 1697px;
+		overflow: visible;
+	}
+	#my-project-img-act {
+		filter: drop-shadow(0px 0px 24px rgba(0, 0, 0, 0.671));
+		position: absolute;
+		width: 476px;
+		height: 270px;
+		left: 215px;
+		top: 2008px;
+		overflow: visible;
+	}
+	#page-3-tilte {
+		left: 544.5px;
+		top: 1584px;
+		position: absolute;
+		overflow: visible;
+		width: 279px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(23,39,46,1);
+	}
+	#page-3-content-1 {
+		position: absolute;
+		width: 384px;
+		height: 258px;
+		left: 767px;
+		top: 1687px;
+		overflow: visible;
+	}
+	#page_3_subtitle_1 {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 247px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(23,39,46,1);
+	}
+	#page_3_text_1 {
+		left: 0px;
+		top: 53px;
+		position: absolute;
+		overflow: hidden;
+		width: 385px;
+		height: 205px;
+		text-align: left;
+		font-family: Telugu Sangam MN;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(20,20,20,1);
+	}
+	#page-3-content-2 {
+		position: absolute;
+		width: 384px;
+		height: 253px;
+		left: 767px;
+		top: 2003px;
+		overflow: visible;
+	}
+	#page_3_subtitle_2 {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 300px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(23,39,46,1);
+	}
+	#page_3_text_2 {
+		left: 0px;
+		top: 53px;
+		position: absolute;
+		overflow: hidden;
+		width: 385px;
+		height: 200px;
+		text-align: left;
+		font-family: Telugu Sangam MN;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(20,20,20,1);
+	}
+	
+	#page-4-background {
+		fill: rgba(203,203,203,1);
+	}
+	.page-4-background {
+		position: absolute;
+		overflow: visible;
+		width: 1366px;
+		height: 766px;
+		left: 0px;
+		top: 2303px;
+	}
+	#page_4_img_poster {
+		opacity: 0.998;
+		filter: drop-shadow(0px 0px 24px rgba(0, 0, 0, 0.671));
+		position: absolute;
+		width: 342px;
+		height: 483px;
+		left: 215px;
+		top: 2485px;
+		overflow: visible;
+	}
+	#page_4_img_aicha {
+		opacity: 0.998;
+		filter: drop-shadow(0px 0px 24px rgba(0, 0, 0, 0.671));
+		position: absolute;
+		width: 342px;
+		height: 483px;
+		left: 811px;
+		top: 2485px;
+		overflow: visible;
+	}
+	#page_4_img_logo {
+		opacity: 0.998;
+		filter: drop-shadow(0px 0px 24px rgba(0, 0, 0, 0.671));
+		position: absolute;
+		width: 306px;
+		height: 315px;
+		left: 530px;
+		top: 2549px;
+		overflow: visible;
+	}
+	#page-4-background_b {
+		fill: rgba(203,203,203,1);
+	}
+	.page-4-background_b {
+		position: absolute;
+		overflow: visible;
+		width: 1366px;
+		height: 772px;
+		left: 0px;
+		top: 3068px;
+	}
+   
+	#page_5_img_profil {
+		filter: drop-shadow(0px 0px 24px rgba(0, 0, 0, 0.671));
+		position: absolute;
+		width: 292px;
+		height: 483px;
+		left: 215px;
+		top: 3245px;
+		overflow: visible;
+	}
+	#page_img_eugen {
+		filter: drop-shadow(0px 0px 24px rgba(0, 0, 0, 0.671));
+		position: absolute;
+		width: 292px;
+		height: 483px;
+		left: 537px;
+		top: 3245px;
+		overflow: visible;
+	}
+	#page_5_img_girl {
+		filter: drop-shadow(0px 0px 24px rgba(0, 0, 0, 0.671));
+		position: absolute;
+		width: 292px;
+		height: 483px;
+		left: 859px;
+		top: 3245px;
+		overflow: visible;
+	}
+	#page-3-tilte_b {
+		left: 526px;
+		top: 2372px;
+		position: absolute;
+		overflow: visible;
+		width: 316px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(23,39,46,1);
+	}
+	#page-5-tilte {
+		left: 585px;
+		top: 3141px;
+		position: absolute;
+		overflow: visible;
+		width: 197px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(23,39,46,1);
+	}
+	#footer_background {
+		position: absolute;
+		width: 2850px;
+		height: 1542.249px;
+		left: -1484px;
+		top: 3831.751px;
+		overflow: visible;
+	}
+
+	.footer_nave {
+		margin-top: -50px;
+	}
+	.footer_nave a:hover{
+		color: white;
+	}
+	#page-5-background {
+		fill: rgba(8,0,0,1);
+	}
+	.page-5-background {
+		position: absolute;
+		overflow: visible;
+		width: 1366px;
+		height: 769px;
+		left: 1484px;
+		top: 9.249px;
+	}
+	.footer_nave a {
+		text-decoration: none;
+		color: #141414;
+		font-size: 20px;
+		font-weight: 200;
+	}
+	#footer_circle {
+		fill: rgba(145,145,145,1);
+	}
+	.footer_circle {
+		overflow: visible;
+		position: absolute;
+		width: 2850px;
+		height: 1542.249px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#footer_logo {
+		position: absolute;
+		width: 129.458px;
+		height: 74.524px;
+		left: 1151px;
+		top: 3922.615px;
+		overflow: visible;
+	}
+	#Path_12_cf {
+		fill: rgba(145,145,145,1);
+	}
+	.Path_12_cf {
+		overflow: visible;
+		position: absolute;
+		width: 79.094px;
+		height: 74.323px;
+		left: 50.365px;
+		top: 0.201px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_16_cg {
+		fill: rgba(145,145,145,1);
+	}
+	.Path_16_cg {
+		overflow: visible;
+		position: absolute;
+		width: 79.895px;
+		height: 74.434px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	
+	#footer_linkedin {
+		position: absolute;
+		width: 134px;
+		height: 107.524px;
+		left: 428px;
+		top: 4174.238px;
+		overflow: visible;
+	}
+	#linkedin_1 {
+		position: absolute;
+		width: 60px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#linkedin_1:hover {
+		opacity: 0.5;
+	}
+	#footer_github {
+		position: absolute;
+		width: 139px;
+		height: 112.524px;
+		left: 551.918px;
+		top: 4169.238px;
+		overflow: visible;
+	}
+	#github_2 {
+		position: absolute;
+		width: 60px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#github_2:hover {
+		opacity: 0.5;
+	}
+	.footer_icons div{
+		margin-left: 25px;
+	}
+	
+	#footer_facebook {
+		position: absolute;
+		width: 133px;
+		height: 106.524px;
+		left: 680.598px;
+		top: 4175.238px;
+		overflow: visible;
+	}
+	#facebook_1 {
+		position: absolute;
+		width: 60px;
+		height: 60px;
+		left: 0px;
+		top: -4px;
+		overflow: visible;
+	}
+	#facebook_1:hover {
+		opacity: 0.5;
+	}
+	#footer_instagram {
+		position: absolute;
+		width: 134px;
+		height: 107.524px;
+		left: 804px;
+		top: 4172.238px;
+		overflow: visible;
+	}
+	#footer_instagram:hover {
+		opacity: 0.5;;
+	}
+	#instagram {
+		position: absolute;
+		width: 60px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	
+	#footer_nave {
+		position: absolute;
+		width: 655.364px;
+		height: 34px;
+		left: 295px;
+		top: 4317px;
+		overflow: visible;
+	}
+	#about_cq {
+		left: 476px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 64px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Shree Devanagari 714;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(20,20,20,1);
+	}
+	#resume_cr {
+		left: 265px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 84px;
+		white-space: nowrap;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: test2.html;
+		cursor: pointer;
+		text-align: left;
+		font-family: Shree Devanagari 714;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(20,20,20,1);
+	}
+	#my_projects_cs {
+		left: 98px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 132px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Shree Devanagari 714;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(20,20,20,1);
+	}
+	#home_ct {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Shree Devanagari 714;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(20,20,20,1);
+	}
+	#contact_cu {
+		left: 575.364px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: test4.html;
+		cursor: pointer;
+		text-align: left;
+		font-family: Shree Devanagari 714;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(20,20,20,1);
+	}
+	#skills_cv {
+		left: 384px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 54px;
+		white-space: nowrap;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: test3.html;
+		cursor: pointer;
+		text-align: left;
+		font-family: Shree Devanagari 714;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(20,20,20,1);
+	}
+	#Footer_copyright_text {
+		position: absolute;
+		width: 258px;
+		height: 37px;
+		left: 554px;
+		top: 4522.988px;
+		overflow: visible;
+	}
+	#_Copyright_2019_La {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 259px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Adobe Clean;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(50,50,50,1);
+	}
+	#Footer_copyright_text {
+		position: absolute;
+		width: 258px;
+		height: 37px;
+		left: 480px;
+		top: 4522.988px;
+		overflow: visible;
+	}
+	.Footer_copyright_text span{
+		font-size: 15px;
+	}
+
